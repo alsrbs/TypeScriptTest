@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(121, 121, 231);
+}
+.Notice{
+    width: 700px;
+    height: 700px;
+    margin: auto;
+    margin-top: 100px;
+}
+.title{
+    margin-left: 28%;
+}
+.NoticeBox{
+    padding: 20px;
+    height: 600px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 3%;
+}
+.TodoListNoList{
+    color: white;
+    margin-left: 29%;
+    margin-top: 40%;
+}
+
+.SearchBar{
+    height: 25px;
+}
+.scrollableContainer{
+    overflow-y: scroll; 
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f0f0f0;
+}
+
+.scrollableContainer::-webkit-scrollbar-thumb {
+    background-color: #888; /* Thumb 배경 색상 */
+    border-radius: 8px; /* Thumb 모서리 둥글기 */
+}
+
+.scrollableContainer::-webkit-scrollbar-track {
+    background-color: #f0f0f0; /* Track 배경 색상 */
+    border-radius: 8px; /* Track 모서리 둥글기 */
+}
+
+.scrollableContainer::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Thumb Hover 시 배경 색상 */
+}

@@ -1,0 +1,13 @@
+.NoticeTitle{
+    display: flex;
+    color: white;
+}
+
+.TodoTitleIcon{
+    width: 30px;
+    height: 40px;
+}
+
+.NoticeTitleTitle{
+    font-size: 30px;
+}

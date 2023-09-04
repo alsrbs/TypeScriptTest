@@ -56,9 +56,11 @@ const Notice = (): JSX.Element => {
                     setTodos={setTodos}
                     />
                 ))
-                ) : (
-                <div className={style.TodoListNoList}>검색 결과가 없습니다.</div>
-                )}
+                ) : todos.length > 0 ? (
+                    <div className={style.TodoListNoList}>검색 결과가 없습니다.</div>
+                  ) : (
+                    <div className={style.TodoListNoList}>작성글이 없습니다. 새로운 항목을 추가해주세요.</div>
+                  )}
             </div>
             <TodoInput/>
         </div>

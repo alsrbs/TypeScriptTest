@@ -1,6 +1,5 @@
 .NoticeItem {
     display: flex;
-    display: -webkit-flex;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 6px;
@@ -16,7 +15,6 @@
 
 .TodoItemIcons {
     display: flex;
-    display: -webkit-flex;
     align-items: center;
 }
 
@@ -29,9 +27,5 @@
     color: rgb(177, 7, 7);
     font-size: 1.9rem;
     cursor: pointer;
-}
-
-.NoticeItemHr{
-    /* margin: 0px; */
 }
 

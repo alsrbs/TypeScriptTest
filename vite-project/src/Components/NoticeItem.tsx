@@ -67,7 +67,7 @@ const NoticeItem = ({
                     <MdClose className={style.TodoItemIconsClose} onClick={() => onDelete(id)} />
                 </div>
             </div>
-            <hr className={style.NoticeItemHr}/>
+            <hr/>
             {
                 isModal &&
                 <TodoModal
